@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     private void checkmailverification()
     {
         FirebaseUser firebaseUser=firebaseAuth.getCurrentUser();
-        if(firebaseUser.isEmailVerified()==true)
+        if(firebaseUser.isEmailVerified())
         {
             Toast.makeText(MainActivity.this, "Logged In", Toast.LENGTH_SHORT).show();
             finish();

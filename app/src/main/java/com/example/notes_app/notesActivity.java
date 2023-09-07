@@ -1,6 +1,7 @@
 package com.example.notes_app;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -23,7 +24,10 @@ public class notesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_notes);
         mcreatenotsfab =findViewById(R.id.createnotefab);
         firebaseAuth=FirebaseAuth.getInstance();
-        getSupportActionBar().setTitle("All Notes");
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setTitle("All Notes");
+        }
 
 
         mcreatenotsfab.setOnClickListener(new View.OnClickListener() {
