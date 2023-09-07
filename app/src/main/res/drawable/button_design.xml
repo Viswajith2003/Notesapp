@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/button_bg.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#FF8596" /> <!-- Background color when button is pressed -->
+            <corners android:radius="6dp" /> <!-- Corner radius for rounded corners -->
+        </shape>
+    </item>
+    <item android:state_hovered="true">
+        <shape>
+            <solid android:color="#FFC0C0" /> <!-- Background color when button is hovered -->
+            <corners android:radius="6dp" /> <!-- Corner radius for rounded corners -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#FFC0C0" /> <!-- Default background color -->
+            <corners android:radius="8dp" /> <!-- Corner radius for rounded corners -->
+        </shape>
+    </item>
+</selector>
