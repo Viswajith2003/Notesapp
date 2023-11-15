@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="72dp"
             android:text="New User"
-            android:textColor="#FFBD4D"
+            android:textColor="@color/my_primary"
             android:textSize="48sp"
             android:textStyle="bold" />
 
@@ -41,7 +41,7 @@
             android:layout_width="398dp"
             android:layout_height="38dp"
             android:text="Nice To See You Here"
-            android:textColor="#FF8596"
+            android:textColor="@color/my_primary"
             android:textSize="23sp" />
 
     </LinearLayout>
@@ -103,6 +103,7 @@
         android:text="Sign Up"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
+        app:backgroundTint="@color/my_primary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.557"
@@ -114,16 +115,17 @@
         android:id="@+id/gotologin"
         android:layout_width="290dp"
         android:layout_height="52dp"
+        android:gravity="right"
         android:padding="9dp"
-        android:text="You already have an account"
+        android:text="Login"
         android:textColor="@color/black"
-        android:textSize="20dp"
-        android:textStyle="bold"
+        android:textSize="23dp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintHorizontal_bias="0.776"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.891" />
+        app:layout_constraintVertical_bias="0.845" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

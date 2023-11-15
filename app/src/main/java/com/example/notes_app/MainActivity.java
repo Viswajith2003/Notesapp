@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         EditText Pass=findViewById(R.id.loginpwd);
         Button Login=findViewById(R.id.loginbtn);
         TextView mgotoforgot=findViewById(R.id.gotoforgot);
-        Button mgotosignup=findViewById(R.id.gotosignup);
+        TextView mgotosignup=findViewById(R.id.gotosignup);
         firebaseAuth=FirebaseAuth.getInstance();
         FirebaseUser firebaseUser=firebaseAuth.getCurrentUser();
 

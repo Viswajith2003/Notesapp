@@ -7,19 +7,11 @@
     android:background="@color/design_default_color_on_primary"
     tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/centerline"
-        android:layout_centerInParent="true">
-
-    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="340dp"
         android:layout_height="115dp"
-        android:layout_above="@id/centerline"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="72dp"
             android:text="Welcome Back!"
-            android:textColor="#FFBD4D"
+            android:textColor="@color/my_primary"
             android:textSize="48sp"
             android:textStyle="bold" />
 
@@ -42,7 +34,7 @@
             android:layout_width="398dp"
             android:layout_height="38dp"
             android:text="Log In To Continue"
-            android:textColor="#FF8596"
+            android:textColor="@color/my_primary"
             android:textSize="23sp" />
 
     </LinearLayout>
@@ -51,7 +43,6 @@
         android:id="@+id/email"
         android:layout_width="344dp"
         android:layout_height="61dp"
-        android:layout_above="@+id/centerline"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -75,7 +66,6 @@
         android:id="@+id/loginpassword"
         android:layout_width="347dp"
         android:layout_height="58dp"
-        android:layout_above="@+id/centerline"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,45 +91,44 @@
         android:background="@drawable/button_design"
         android:text="Log In"
         android:textColor="#FFFFFF"
-        android:textSize="30dp"
+        app:backgroundTint="@color/my_primary"     android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.647" />
+        app:layout_constraintVertical_bias="0.659" />
 
     <TextView
         android:id="@+id/gotoforgot"
-        android:layout_width="160dp"
-        android:layout_height="40dp"
-        android:text="Forgot Password"
+        android:layout_width="194dp"
+        android:layout_height="38dp"
+        android:gravity="right"
+        android:text="Forgot Password ?"
         android:textColor="@color/black"
         android:textSize="20dp"
-        android:textStyle="bold"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.892"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toEndOf="@+id/gotosignup"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.729" />
+        app:layout_constraintVertical_bias="0.754" />
 
-    <Button
+    <TextView
         android:id="@+id/gotosignup"
-        android:layout_width="350dp"
-        android:layout_height="62dp"
-        android:layout_centerInParent="true"
-        android:background="@drawable/button_design"
-        android:text="New user! Create an Account"
-        android:textColor="#FFFFFF"
+        android:layout_width="101dp"
+        android:layout_height="38dp"
+        android:text="Sign In"
+        android:textColor="@color/black"
         android:textSize="20dp"
-        android:padding="4dp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.109"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.886" />
+        app:layout_constraintVertical_bias="0.754" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
