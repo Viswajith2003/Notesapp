@@ -6,19 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Signup">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/centerline2"
-        android:layout_centerInParent="true">
 
-    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="340dp"
         android:layout_height="115dp"
-        android:layout_above="@id/centerline2"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +43,6 @@
         android:id="@+id/email"
         android:layout_width="344dp"
         android:layout_height="61dp"
-        android:layout_above="@+id/centerline2"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -74,7 +66,6 @@
         android:id="@+id/password"
         android:layout_width="347dp"
         android:layout_height="58dp"
-        android:layout_above="@+id/centerline2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.531"
