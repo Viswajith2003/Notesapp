@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "567182694162",
-    "project_id": "notesapp-36779",
-    "storage_bucket": "notesapp-36779.appspot.com"
+    "project_number": "433660085132",
+    "project_id": "note-app-viswajith",
+    "storage_bucket": "note-app-viswajith.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:567182694162:android:71fb67217b03b8c82d85cb",
+        "mobilesdk_app_id": "1:433660085132:android:323b307f8e438b1db54ca9",
         "android_client_info": {
           "package_name": "com.example.notes_app"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "567182694162-98a5pobm3fhbj4rkj1506ijb0cn0n7lm.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBgVYH4-vHagqlLd7cNInm5oQ1SPTs_3VY"
+          "current_key": "AIzaSyAVm3edosC1mZUKOsa52l2QMcHIFUsmTaE"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "567182694162-98a5pobm3fhbj4rkj1506ijb0cn0n7lm.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
